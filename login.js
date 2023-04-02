@@ -44,7 +44,7 @@ signup.addEventListener('click', (e) => {
             })
 
             alert('login successfully')
-            if(window.location.assign('index.html')){
+            if(window.location.assign('welcome.html')){
                 logoutUser()
             }else{
                 console.log('error')
